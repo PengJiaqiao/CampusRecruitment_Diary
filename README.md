@@ -1,2 +1,2 @@
-# NOWCODER_Diary
-牛客网刷题记录
+# CampusRecruitment_Diary
+秋招笔试刷题记录
