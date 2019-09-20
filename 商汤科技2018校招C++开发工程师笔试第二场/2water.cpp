@@ -3,7 +3,7 @@
 #include <cstring>
 #include <algorithm>
 #include <bitset>
-              using namespace std;
+using namespace std;
 /*将4杯子倒水问题改为一个足够大的杯子倒向4个杯子*/
 bitset<17043521> Hash; /*（大小为64*64^4+64*64^3+64*64^2+64*64^1+64*64^0）记录每次操作后的ABCD杯子的当前容量是否已经存在过*/
 const int MAX_STEP = 100000;
