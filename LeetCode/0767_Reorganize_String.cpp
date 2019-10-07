@@ -24,14 +24,17 @@ public:
         string res = "";
         res.push_back(v[0].second);
         vector<string> s(v[0].first, res);
-        for(int i = 0, j = 1; i < sum; ++i) {
-            if(v[j].first == 0) ++j;
-            s[i%v[0].first].push_back(v[j].second);
+        for (int i = 0, j = 1; i < sum; ++i)
+        {
+            if (v[j].first == 0)
+                ++j;
+            s[i % v[0].first].push_back(v[j].second);
             --v[j].first;
         }
-        
         res = "";
-        for(string s_: s) res += s_;
+        for (string s_ : s)
+            res += s_;
+
         return res;
     }
 };
